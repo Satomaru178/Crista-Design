@@ -87,3 +87,21 @@ header
       }
     }
   }
+  .main-title {
+    width: 450px;
+    height: 136px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    padding: 35px 42px;
+    border: 1px solid #fff;
+    display: inline-block;
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: 2px;
+  }
+}
