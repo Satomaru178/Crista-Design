@@ -46,8 +46,10 @@ section {
 }
 
 section .sec-title {
+  font-size: 36px;
   text-align: center;
   margin-bottom: 70px;
+  letter-spacing: 1.5px;
 }
 
 /*------------------------------------
@@ -116,4 +118,8 @@ header
   font-weight: normal;
   letter-spacing: 2px;
 }
+
+/*------------------------------------
+about
+------------------------------------*/
 /*# sourceMappingURL=style.css.map */
