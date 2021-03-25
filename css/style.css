@@ -52,6 +52,17 @@ section .sec-title {
   letter-spacing: 1.5px;
 }
 
+.contents h3 {
+  font-size: 24px;
+  line-height: 48px;
+  margin-bottom: 30px;
+}
+
+.contents p {
+  font-size: 14px;
+  line-height: 30px;
+}
+
 /*------------------------------------
 header
 ------------------------------------*/
@@ -122,4 +133,84 @@ header
 /*------------------------------------
 about
 ------------------------------------*/
+/*------------------------------------
+service
+------------------------------------*/
+#service .flex-item:first-of-type {
+  margin-bottom: 50px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+#service .flex-item .contents,
+#service .flex-item img {
+  width: 45%;
+}
+
+#service .flex-item .contents {
+  padding: 15px 0;
+}
+
+/*------------------------------------
+news
+------------------------------------*/
+#news .item {
+  width: 31%;
+  -webkit-box-shadow: 0 0 8px gray;
+          box-shadow: 0 0 8px gray;
+}
+
+#news .item p {
+  font-size: 13px;
+  line-height: 25px;
+  padding: 25px 30px;
+}
+
+/*------------------------------------
+contact
+------------------------------------*/
+#contact {
+  margin-bottom: 0;
+}
+
+#contact .contact-form dl {
+  padding: 5px 0 25px 0;
+}
+
+#contact .contact-form dl input,
+#contact .contact-form dl textarea {
+  width: 100%;
+  border: 1px solid #141414;
+  margin-bottom: 25px;
+}
+
+#contact .contact-form .btn {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #1B1310;
+  color: #fff;
+  width: 235px;
+  line-height: 59px;
+  border-radius: 35px;
+  -webkit-box-shadow: 0 0 8px gray;
+          box-shadow: 0 0 8px gray;
+}
+
+/*------------------------------------
+footer
+------------------------------------*/
+#footer {
+  height: 79px;
+  background-color: #1B1310;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+#footer p {
+  line-height: 79px;
+}
 /*# sourceMappingURL=style.css.map */
