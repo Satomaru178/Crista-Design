@@ -158,3 +158,32 @@ news
   }
 }
 
+/*------------------------------------
+contact
+------------------------------------*/
+#contact {
+  margin-bottom: 0;
+  .contact-form {
+    dl {
+      padding: 5px 0 25px 0;
+      input,
+      textarea {
+        width: 100%;
+        border: 1px solid #141414;
+        margin-bottom: 25px;
+      }
+    }
+    .btn {
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+      background-color: #1B1310;
+      color: #fff;
+      width: 235px;
+      line-height: 59px;
+      border-radius: 35px;
+      box-shadow: 0 0 8px gray;
+    }
+  }
+}
+
