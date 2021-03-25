@@ -124,4 +124,22 @@ header
 /*------------------------------------
 about
 ------------------------------------*/
+/*------------------------------------
+service
+------------------------------------*/
+#service {
+  .flex-item {
+    &:first-of-type {
+      margin-bottom: 50px;
+      flex-direction: row-reverse;
+    }
+    .contents,
+    img {
+      width: 45%;
+    }
+    .contents {
+      padding: 15px 0;
+    }
+  }
+}
 
