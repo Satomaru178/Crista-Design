@@ -143,3 +143,18 @@ service
   }
 }
 
+/*------------------------------------
+news
+------------------------------------*/
+#news {
+  .item {
+    width: 31%;
+    box-shadow: 0 0 8px gray;
+    p {
+      font-size: 13px;
+      line-height: 25px;
+      padding: 25px 30px;
+    }
+  }
+}
+
