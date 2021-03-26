@@ -314,19 +314,24 @@ SP
     }
   }
 
+  /*------------------------------------
+  service
+  ------------------------------------*/
+  #service {
+    .flex-item {
+      flex-direction: column;
+      &:first-of-type {
+        margin-bottom: 50px;
+        flex-direction: column;
+      }
 
-                &:nth-child(3) {
-                  transform: rotate(-45deg);
-                  opacity: .7;
-                }
+      .contents,
+      img {
+        width: 100%;
+      }
+    }
+  }
 
-                &:last-child {
-                  transform: translateY(-10px) rotate(45deg);
-                  opacity: .7;
-                }
-              }
-            }
-          }
         }
       }
     }
