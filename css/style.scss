@@ -75,14 +75,12 @@ header
   .header-top {
     height: 74px;
     border-bottom: 1px solid #fff;
-    .flex-item {
-      align-items: center;
-    }
     .header-inner {
       max-width: 1200px;
       padding: 0 15px;
       line-height: 74px;
       margin: 0 auto;
+      align-items: center;
       .header-left {
         font-size: 26px;
         font-weight: normal;
