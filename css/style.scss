@@ -217,8 +217,38 @@ SP
     background-position: center;
     .header-top {
       .header-inner {
-        .header-right {
+        #nav {
           .flex-item {
+            flex-direction: column;
+          }
+          width: 100%;
+          height: 100%;
+          background-color: #1B1310;
+          text-align: center;
+          padding: 50% 0;
+          display: none;
+          position: fixed;
+          top: 0;
+          left: 0;
+          li {
+            &:not(:last-of-type) {
+              margin-right: 0;
+            }
+          }
+          &.open {
+            display: block;
+            z-index: 10;
+          }
+        }
+        .menu-btn {
+          display: block;
+          width: 30px;
+          height: 30px;
+          position: relative;
+          top: 0;
+          cursor: pointer;
+          z-index: 20;
+
             display: block;
             position: absolute;
             top: 64px;
