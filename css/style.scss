@@ -302,11 +302,18 @@ SP
       }
     }
 
+    .main-title {
+      width: 300px;
+      height: 100px;
+      padding: 30px 40px;
+      border: 1px solid #fff;
+      display: inline-block;
+      font-size: 30px;
+      font-weight: normal;
+      letter-spacing: normal;
+    }
+  }
 
-                &:nth-child(2) {
-                  transform: rotate(45deg);
-                  opacity: .7;
-                }
 
                 &:nth-child(3) {
                   transform: rotate(-45deg);
